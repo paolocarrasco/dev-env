@@ -1,7 +1,7 @@
 # dev-env
 All the things I need to develop
 
-## Linux
+## Ubuntu
 
 ### Tools
 - Git
@@ -12,7 +12,7 @@ All the things I need to develop
 - wget
 - xclip
 
-### Browsers
+### Communication
 - Chrome
 - Firefox
 
