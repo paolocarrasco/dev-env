@@ -25,6 +25,7 @@ All the things I need to develop
 - Node
 - Python
 - Ruby
+- Java
 
 ### Databases
 - MongoDB
