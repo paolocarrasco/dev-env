@@ -32,7 +32,7 @@ All the things I need to develop
 - PostgreSql
 - MySql
 
-### Utilities
+### Node specific tools
 - Grunt
 - Gulp
 - Yo
