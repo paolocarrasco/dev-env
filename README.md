@@ -24,7 +24,7 @@ All the things I need to develop
 ### Languages
 - Node
 - Python
-- Ruby
+- Ruby & RVM
 - Java
 
 ### Databases
