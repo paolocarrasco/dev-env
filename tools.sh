@@ -1,10 +1,9 @@
-#! /bin/bash
+#! /bin/sh
 
 sudo apt-get update
 
 sudo apt-get install --yes xclip
 sudo apt-get install --yes wget
-sudo apt-get install --yes vim
 sudo apt-get install --yes git
 sudo apt-get install --yes virtualbox
 sudo apt-get install --yes vagrant
