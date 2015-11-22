@@ -35,4 +35,6 @@ All the things I need to develop
 ### Node specific tools
 - Grunt
 - Gulp
+- Bower
 - Yo
+- N (NodeJS version manager)
