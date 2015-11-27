@@ -15,6 +15,7 @@ All the things I need to develop
 ### Communication
 - Chrome
 - Firefox
+- Lynx browser
 
 ### IDEs
 - Vim

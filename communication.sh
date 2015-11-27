@@ -23,3 +23,5 @@ sudo sh -c 'echo "deb https://dl-ssl.google.com/linux/chrome/deb/ stable main" >
 sudo apt-get update 
 sudo apt-get install --yes google-chrome-beta
 
+# Lynx browser
+sudo apt-get install --force-yes --yes lynx
