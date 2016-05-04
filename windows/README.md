@@ -4,7 +4,7 @@ All the things I need to develop
 ## Windows
 
 ### Tools
-- Git
+- Git (includes GitBash [and this includes VIm])
 - Vagrant
 - Docker
 - Virtual Box
@@ -16,7 +16,6 @@ All the things I need to develop
 - Lynx browser
 
 ### IDEs
-- Vim
 - IntelliJ CE
 - Atom
 
