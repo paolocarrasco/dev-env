@@ -8,7 +8,7 @@ All the things I need to develop
 - Vagrant
 - Docker
 - Virtual Box
-- Heroku
+- Heroku Toolbelt
 
 ### Communication
 - Chrome

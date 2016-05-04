@@ -1,5 +1,5 @@
-choco install nodejs
-choco install python3
-choco install python2
-choco install ruby
-choco install jdk8
+choco install nodejs -y
+choco install python3 -y
+choco install python2 -y
+choco install ruby -y
+choco install jdk8 -y

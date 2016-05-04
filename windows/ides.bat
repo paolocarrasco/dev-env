@@ -1,2 +1,2 @@
-choco install intellijidea-community
-choco install atom
+choco install intellijidea-community -y
+choco install atom -y
