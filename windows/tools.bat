@@ -4,6 +4,5 @@ REM Installation of chocolatey
 
 choco install git -y
 choco install vagrant -y
-choco install docker -y
 choco install virtualbox -y
 choco install heroku-toolbelt -y

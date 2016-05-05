@@ -6,7 +6,6 @@ All the things I need to develop
 ### Tools
 - Git Tools (includes Git, GitBash [and this includes VIm])
 - Vagrant
-- Docker
 - Virtual Box
 - Heroku Toolbelt
 
