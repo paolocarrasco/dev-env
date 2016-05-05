@@ -4,7 +4,7 @@ All the things I need to develop
 ## Windows
 
 ### Tools
-- Git (includes GitBash [and this includes VIm])
+- Git Tools (includes Git, GitBash [and this includes VIm])
 - Vagrant
 - Docker
 - Virtual Box
@@ -13,7 +13,7 @@ All the things I need to develop
 ### Communication
 - Chrome
 - Firefox
-- Lynx browser
+- ELinks browser
 
 ### IDEs
 - IntelliJ CE
@@ -35,4 +35,3 @@ All the things I need to develop
 - Gulp
 - Bower
 - Yo
-- N (NodeJS version manager)
