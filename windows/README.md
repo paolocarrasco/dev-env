@@ -4,6 +4,7 @@ All the things I need to develop
 ## Windows
 
 ### Tools
+- Chocolatey
 - Git Tools (includes Git, GitBash [and this includes VIm])
 - Vagrant
 - Virtual Box
