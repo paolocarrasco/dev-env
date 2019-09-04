@@ -6,9 +6,9 @@ All the things I need to develop
 ### Tools
 - Home Brew
 - GPG Suite
-- Git
 - Docker
 - iTerm 2
+- Tmux & Tmuxp
 
 ### Communication
 - Chrome
@@ -34,7 +34,7 @@ All the things I need to develop
 - MySql
 
 ### Node specific tools
-- Gulp
+- NVM
 - Bower
 - Aurelia-Cli
 
