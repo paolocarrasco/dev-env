@@ -1,13 +1,15 @@
-# dev-env
+dev-env
+--------
+
 All the things I need to develop
 
-## Ubuntu 15
-Found in [here](ubuntu/README.md).
+- [MacOs](macos/README.md). 
 
-## Windows 8.1
-Found in [here](windows/README.md).
+Deprecated
+==========
 
-## MacOs High Sierra
-Found in [here](macos/README.md). 
+Since I don't use these OS anymore.
 
-> Remember to keep track of the user root directory (git).
+- [Ubuntu](ubuntu/README.md).
+
+- [Windows](windows/README.md).
