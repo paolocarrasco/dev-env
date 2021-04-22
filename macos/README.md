@@ -12,6 +12,7 @@ All the things I need to develop
 - Tmuxp
 - PowerLine (shell & vim status)
 - AWS-CLI
+- ranger (file manager)
 
 ### Communication
 - Chrome
