@@ -9,7 +9,6 @@ fi
 # cli tools
 brew install --cask iterm2
 brew install tmuxp
-brew install docker
 brew install --cask docker
 brew install powerline-go
 brew install awscli
