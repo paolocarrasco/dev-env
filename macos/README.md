@@ -27,7 +27,7 @@ All the things I need to develop
 - Node & Yarn & NVM
 - Python & Pipenv
 - Ruby & RVM
-- Java
+- Java & jEnv
 
 ### Database clients
 - MongoDB
