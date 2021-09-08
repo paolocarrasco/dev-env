@@ -21,4 +21,5 @@ brew install --cask firefox
 brew install --cask slack
 brew install --cask zoom
 
-
+# IDE
+brew install --cask jetbrains-toolbox
