@@ -2,8 +2,8 @@
 
 if ! [ -x "$(command -v brew)" ]
 then
-    echo "Homebrew was not installed. Installing it now."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo "Homebrew was not installed. Installing it now."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # cli tools
@@ -25,7 +25,10 @@ brew install --cask jetbrains-toolbox
 
 # languages
 brew install node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+[ -s "$NVM_DIR/nvm.sh" ] || (echo "NVM was not installed. Installing it now." && \
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash)
+
 brew install --cask oracle-jdk
 
 # utilities
