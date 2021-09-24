@@ -1,9 +1,13 @@
-# dev-env
-All the things I need to develop
+# How to install these tools?
 
-## Mac OS X
+Execute the command:
+```shell
+./tools.sh
+```
 
-### Command Line Tools
+# Tools to install
+
+## Command Line Tools
 - Home Brew
 - GPG Suite
 - Docker
@@ -14,7 +18,7 @@ All the things I need to develop
 - AWS-CLI
 - ranger (file manager)
 
-### Communication
+## Communication
 - Chrome
 - Firefox
 - Slack
@@ -23,7 +27,7 @@ All the things I need to develop
 ### IDEs
 - Jetbrains Toolbox
 
-### Languages
+## Languages
 - Node & Yarn & NVM
 - Python & Pipenv
 - Ruby & RVM
@@ -34,14 +38,30 @@ All the things I need to develop
 - PostgreSql
 - MySql
 
-### Joy
+## Joy
 - Spotify
 - TuneIn
 - Kindle
 
-### Utilities
+## Utilities
 - Spectacle
 - Caffeine
 - 1Password
 - KeyCastr
 - MDP (presentation utility)
+
+# How to configure the machine?
+
+Execute the command:
+
+```shell
+./setup.sh
+```
+
+# How to create an SSH key?
+
+Execute the command:
+
+```shell
+./create-ssh-key.sh
+```
