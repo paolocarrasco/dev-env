@@ -26,6 +26,8 @@ brew install --cask jetbrains-toolbox
 # languages
 brew install node
 
+export NVM_DIR="$HOME/.nvm"
+
 [ -s "$NVM_DIR/nvm.sh" ] || (echo "NVM was not installed. Installing it now." && \
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash)
 
