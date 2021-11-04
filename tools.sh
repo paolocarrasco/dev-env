@@ -32,6 +32,8 @@ export NVM_DIR="$HOME/.nvm"
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash)
 
 brew install --cask oracle-jdk
+brew install jenv
+
 
 # utilities
 brew install --cask spectacle
