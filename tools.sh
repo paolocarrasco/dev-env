@@ -13,12 +13,14 @@ brew install --cask docker
 brew install awscli
 brew install ranger
 
-pip3 install --user powerline-status
+# installing powerline
+pip3 install powerline-status
 git clone https://github.com/powerline/fonts.git --depth=1
-# install
+
+# installing fonts
 cd fonts
 ./install.sh
-# clean-up a bit
+# clean-up a bit the installed fonts
 cd ..
 rm -rf fonts
 
