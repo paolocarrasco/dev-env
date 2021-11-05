@@ -20,3 +20,4 @@ if [[ -z "$GPG_TTY" ]]; then
   touch ~/.dotfiles/gpg.bash
   echo -e "#! /bin/bash\nexport GPG_TTY=$(tty)" > ~/.dotfiles/gpg.bash
 fi
+
