@@ -19,5 +19,4 @@ if [[ -z "$GPG_TTY" ]]; then
   echo "Creating the file for GPG stuff"
   touch ~/.dotfiles/gpg.bash
   echo -e "#! /bin/bash\nexport GPG_TTY=$(tty)" > ~/.dotfiles/gpg.bash
-  echo "source ~/.dotfiles/gpg.bash" >> ~/.bash_profile
 fi
