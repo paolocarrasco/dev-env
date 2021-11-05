@@ -10,9 +10,17 @@ fi
 brew install --cask iterm2
 brew install tmuxp
 brew install --cask docker
-brew install powerline-go
 brew install awscli
 brew install ranger
+
+pip3 install --user powerline-status
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
 
 # communication tools
 brew install --cask google-chrome
