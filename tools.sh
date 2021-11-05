@@ -24,6 +24,8 @@ cd fonts
 cd ..
 rm -rf fonts
 
+pip3 install powerline-gitstatus
+
 # communication tools
 brew install --cask google-chrome
 brew install --cask firefox
