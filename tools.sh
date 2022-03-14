@@ -6,12 +6,11 @@ then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+brew upgrade
+
 # cli tools
-brew install --cask iterm2
-brew install tmuxp
-brew install --cask docker
-brew install awscli
-brew install ranger
+brew install --cask iterm2 docker
+brew install tmuxp awscli ranger
 
 # installing powerline
 pip3 install powerline-status
@@ -27,10 +26,7 @@ rm -rf fonts
 pip3 install powerline-gitstatus
 
 # communication tools
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask slack
-brew install --cask zoom
+brew install --cask google-chrome firefox slack zoom
 
 # IDE
 brew install --cask jetbrains-toolbox
@@ -48,7 +44,5 @@ brew install jenv
 
 
 # utilities
-brew install --cask spectacle
-brew install --cask caffeine
-brew install --cask keycastr
+brew install --cask spectacle caffeine keycastr flycut
 brew install mdp
