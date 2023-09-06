@@ -17,6 +17,10 @@ Execute the command (at this directory):
 - PowerLine (shell & vim status)
 - AWS-CLI
 - ranger (file manager)
+- bat (cat with syntax highlight)
+- eza (modern ls)
+- delta (modern diff for git)
+- jq (json parser)
 
 ## Communication
 - Chrome

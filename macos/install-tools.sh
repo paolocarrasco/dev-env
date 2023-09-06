@@ -10,7 +10,7 @@ brew upgrade
 
 # cli tools
 brew install --cask iterm2 docker
-brew install tmuxp awscli ranger
+brew install tmuxp awscli ranger bat eza git-delta jq
 
 # installing powerline
 pip3 install powerline-status
