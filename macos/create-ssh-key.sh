@@ -10,6 +10,8 @@ echo "It should be something like '$HOME/id_<something>' (without the '.pub' ext
 read IDENTITY_FILE
 
 if [ ! -f ~/.ssh/config ]; then
+    # Disabling the warning as it is a message explaining that the file was not found
+    # shellcheck disable=SC2088
     echo "~/.ssh/config file not found! Creating one"
     touch ~/.ssh/config
 fi
@@ -27,4 +29,4 @@ cat "$IDENTITY_FILE.pub" | pbcopy
 
 echo "SSH_KEY copied!" 
 echo "Continue the steps from the Github documentation for inserting the SSH KEY to your account"
-echo "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account"
+echo "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account"

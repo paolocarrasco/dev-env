@@ -17,16 +17,26 @@ pip3 install powerline-status
 git clone https://github.com/powerline/fonts.git --depth=1
 
 # installing fonts
-cd fonts
-./install.sh
-# clean-up a bit the installed fonts
-cd ..
-rm -rf fonts
+if test -d fonts; then
+  # this folder should exist as it was verified in the condition
+  # shellcheck disable=SC2164
+  cd fonts
+  # this is a file that is inside the repo
+  ./install.sh
+
+  # clean-up a bit the installed fonts
+  # shellcheck disable=SC2103
+  cd ..
+  rm -rf fonts
+else
+  echo "The fonts repo was not found. Skipping the installation of the fonts"
+  echo "Make sure to install the fonts manually (check if you have internet connection)"
+fi
 
 pip3 install powerline-gitstatus
 
 # communication tools
-brew install --cask google-chrome firefox slack zoom
+brew install --cask google-chrome zoom
 
 # IDE
 brew install --cask jetbrains-toolbox
@@ -44,5 +54,5 @@ brew install jenv
 
 
 # utilities
-brew install --cask spectacle caffeine keycastr flycut
+brew install --cask rectangle caffeine keycastr
 brew install mdp

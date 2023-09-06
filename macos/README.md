@@ -1,8 +1,8 @@
 # How to install these tools?
 
-Execute the command:
+Execute the command (at this directory):
 ```shell
-./tools.sh
+./install-tools.sh
 ```
 
 # Tools to install
@@ -20,8 +20,6 @@ Execute the command:
 
 ## Communication
 - Chrome
-- Firefox
-- Slack
 - Zoom
 
 ### IDEs
@@ -30,35 +28,33 @@ Execute the command:
 ## Languages
 - Node & Yarn & NVM
 - Python & Pipenv
-- Ruby & RVM
 - Java & jEnv
 
 ### Database clients
-- MongoDB
 - PostgreSql
 - MySql
+- MongoDB
 
 ## Joy
-- Spotify
 - TuneIn
 - Kindle
 
 ## Utilities
-- Spectacle
+- Rectangle
 - Caffeine
 - 1Password
-- KeyCastr
+- KeyCastr (to cast keystrokes)
 - MDP (presentation utility)
 
-# How to configure the machine?
+# How to create an SSH key?
 
 Execute the command:
 
 ```shell
-./setup.sh
+./create-ssh-key.sh
 ```
 
-# How to create an SSH key?
+# How to config a GPG key?
 
 Execute the command:
 
