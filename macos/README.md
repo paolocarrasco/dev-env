@@ -2,7 +2,7 @@
 
 ## How to install these tools?
 
-Execute the command (at this directory):
+Clone this repository, and execute this command (at this directory):
 
 ```shell
 ./install-tools.sh
