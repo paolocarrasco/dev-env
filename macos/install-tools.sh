@@ -8,9 +8,8 @@ fi
 
 brew upgrade
 
-# cli tools
-brew install --cask iterm2 docker
-brew install tmuxp awscli ranger bat eza git-delta jq
+# installing all the brew apps
+brew bundle --file=Brewfile
 
 # installing powerline
 pip3 install powerline-status
@@ -35,24 +34,7 @@ fi
 
 pip3 install powerline-gitstatus
 
-# communication tools
-brew install --cask google-chrome zoom
-
-# IDE
-brew install --cask jetbrains-toolbox
-
-# languages
-brew install node
-
 export NVM_DIR="$HOME/.nvm"
 
 [ -s "$NVM_DIR/nvm.sh" ] || (echo "NVM was not installed. Installing it now." && \
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash)
-
-brew install --cask oracle-jdk
-brew install jenv
-
-
-# utilities
-brew install --cask rectangle caffeine keycastr
-brew install mdp

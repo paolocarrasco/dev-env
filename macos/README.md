@@ -1,16 +1,21 @@
-# How to install these tools?
+# MacOS
+
+## How to install these tools?
 
 Execute the command (at this directory):
+
 ```shell
 ./install-tools.sh
 ```
 
-# Tools to install
+## Tools to install
 
-## Command Line Tools
-- Home Brew
+### Command Line Tools
+
+- HomeBrew
 - GPG Suite
-- Docker
+- Docker CLI (not Docker Desktop)
+- Colima (Docker Desktop alternative)
 - iTerm 2
 - Tmux
 - Tmuxp
@@ -21,36 +26,44 @@ Execute the command (at this directory):
 - eza (modern ls)
 - delta (modern diff for git)
 - jq (json parser)
+- bottom (modern top)
 
-## Communication
+### Communication
+
 - Chrome
 - Zoom
 
 ### IDEs
+
 - Jetbrains Toolbox
 
-## Languages
+### Languages
+
 - Node & Yarn & NVM
 - Python & Pipenv
 - Java & jEnv
 
 ### Database clients
+
 - PostgreSql
 - MySql
 - MongoDB
 
-## Joy
+### Joy
+
 - TuneIn
 - Kindle
 
-## Utilities
+### Utilities
+
+- Warp (AI terminal)
 - Rectangle
 - Caffeine
 - 1Password
 - KeyCastr (to cast keystrokes)
 - MDP (presentation utility)
 
-# How to create an SSH key?
+## How to create an SSH key?
 
 Execute the command:
 
@@ -58,7 +71,7 @@ Execute the command:
 ./create-ssh-key.sh
 ```
 
-# How to config a GPG key?
+## How to config a GPG key?
 
 Execute the command:
 

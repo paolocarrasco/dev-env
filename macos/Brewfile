@@ -1,0 +1,40 @@
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+
+# Command line tools
+brew "awscli"
+brew "bat"
+brew "bottom"
+brew "freetype"
+brew "cmake"
+brew "eza"
+brew "git-delta"
+brew "jq"
+brew "ranger"
+
+# Utilities
+brew "colima"
+brew "docker"
+brew "mdp"
+cask "caffeine"
+cask "google-chrome"
+cask "rectangle"
+cask "zoom"
+cask "keycastr"
+
+# Terminal experience
+cask "iterm2"
+brew "tmux"
+brew "tmuxp"
+cask "warp"
+
+# Development
+brew "adr-tools"
+brew "jenv"
+brew "maven"
+brew "node"
+brew "openjdk@8"
+brew "python@3.10"
+brew "hashicorp/tap/terraform"
+cask "jetbrains-toolbox"
+cask "oracle-jdk"
