@@ -66,16 +66,16 @@ Clone this repository, and execute this command (at this directory):
 
 ## How to create an SSH key?
 
-Execute the command:
+If using 1Password 8, you can use the SSH key generator.
+Check the [documentation](https://blog.1password.com/1password-ssh-agent/).
 
-```shell
-./create-ssh-key.sh
-```
+Otherwise, follow the steps suggested by
+[GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ## How to config a GPG key?
 
 Execute the command:
 
 ```shell
-./create-ssh-key.sh
+./create-gpg-key.sh
 ```
