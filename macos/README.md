@@ -36,6 +36,7 @@ Clone this repository, and execute this command (at this directory):
 ### IDEs
 
 - Jetbrains Toolbox
+- Visual Studio Code
 
 ### Languages
 
